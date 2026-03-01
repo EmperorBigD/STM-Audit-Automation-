@@ -48,5 +48,5 @@ The pipeline follows a rigorous data transformation sequence:
 * `STM_By_Chapter.py`: Provides an editorial overview, counting self-citations per chapter to ensure content balance.
 
 ---
-**Developed by:** [Your Name]  
+**Developed by:** Mayank Joshi  
 *MSc Data Science Candidate | MSc Physics | Project Manager @ Lumina Datamatics*
