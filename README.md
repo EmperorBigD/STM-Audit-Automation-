@@ -51,7 +51,7 @@ This eliminates **~160 lines of duplicated code** that previously existed betwee
 ### Why deterministic regex over fuzzy similarity?
 
 A cosine-similarity approach on TF-IDF author-name vectors would give higher recall
-but unacceptable precision: partial matches (e.g. "J. Smith" ↔ "J. Smithson") would
+but unacceptable precision: partial matches (e.g. "M. Jo" ↔ "M. Joshi") would
 suppress legitimate billable assets. In a billing context, **false negatives are
 financially costly**, so precision is prioritised.
 
@@ -85,8 +85,8 @@ Five word-boundary-anchored regex patterns cover all standard academic citation 
 | P4 | `M. J.` | `\bM\.\s*J\.?\b` |
 | P5 | `Mayank J.` | `\bMayank\s+J\.?\b` |
 
-`\b` (word boundary) prevents "Li" from matching inside "Liu". `re.escape` handles
-hyphenated names (e.g. "O'Brien"). All text is lowercased before matching.
+`\b` (word boundary) prevents "Ma" from matching inside "May". `re.escape` handles
+hyphenated names (e.g. "M'Joshi"). All text is lowercased before matching.
 
 #### Performance optimisation — LRU-cached pattern compilation
 
