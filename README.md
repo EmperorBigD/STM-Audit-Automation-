@@ -1,5 +1,10 @@
 # STM Permissions & Self-Citation Data Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Library-Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/Library-NumPy-013243?logo=numpy&logoColor=white)
+![Regex](https://img.shields.io/badge/Logic-Regex-d93f0b)
+
 This folder contains an automated pipeline that analyses "Weekly Status" Excel reports and
 determines which assets (figures, tables, images) require formal permission requests according
 to the **STM Permissions Guidelines**.
