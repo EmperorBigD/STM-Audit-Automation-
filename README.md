@@ -169,3 +169,7 @@ Install with:
 ```powershell
 pip install -r Requirements.txt
 ```
+
+---
+**Developed by:** [Mayank Joshi]  
+*MSc Data Science Candidate | MSc Physics | Project Manager @ Lumina Datamatics*
